@@ -486,7 +486,8 @@ bool ESP8266::eATGMR(String &version)
 {
     rx_empty();
     m_puart->println("AT+GMR");
-    return recvFindAndFilter("OK", "\r\r\n", "\r\n\r\nOK", version); 
+    //return recvFindAndFilter("OK", "\r\r\n", "\r\n\r\nOK", version);
+    return recvFindAndFilter("OK", "+GMR", "\r\nOK", version);
 }
 
 bool ESP8266::qATCWMODE(uint8_t *mode) 
