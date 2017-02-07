@@ -11,6 +11,10 @@ Source can be download at <https://github.com/itead/ITEADLIB_Arduino_WeeESP8266>
 You can clone it by:
 
     git clone https://github.com/itead/ITEADLIB_Arduino_WeeESP8266.git
+    
+Also, see this other fork with several changes
+
+<https://github.com/vshymanskyy/BlynkESP8266/commits/master>
 
 # Documentation
 
